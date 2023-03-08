@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="css/media query.css">
+    <title>Florist</title>
+</head>
+
+<body>
+     
+<div class="add-product">
+<h2>All Products</h2>
+<button class="btn-add">+ Add New Product</button>
+</div>
+<table>
+    <thead>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th colspan="2">Actions</th>
+    </thead>
+    <tbody class="table-data">
+    </tbody>
+</table>
+<!-- Add Products -->
+<div class="box-light d-none ">
+    <div class="box-add">
+<div class="box-form" >
+    <h3>Add Product</h3>
+    
+
+    <input type="text" placeholder="Name" id="pName" required>
+    <input type="number" placeholder="price" id="pPrice" required>
+    
+    <label for="">Add Image</label>
+    
+    <input type="file" accept="image/*" id="pImg" required>
+    <output></output>
+   <div>
+    <input class="send-data" type="submit" value="Add Product" >
+    <button class="d-none update-data">Update Product </button>
+   </div>
+   <button class="close">Close</button>
+</div>
+    </div>
+
+</div>
+
+<a href="index.html" class="go-home"> Go to Home Page </a>
+
+
+
+   
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
